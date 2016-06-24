@@ -25,14 +25,12 @@
       ], function (arcgisUtils, IdManager, OAuthInfo) {
 
         var info = new OAuthInfo({
-          appId: 'T33ZahDD2ALbOLuN'
+          appId: ''
         });
 
         IdManager.registerOAuthInfos([info]);
 
-        arcgisUtils.createMap('62ae4af73bb34b2883258481ea6de157', 'map').then(function (response) {
-          console.log('map created');
-        });
+        arcgisUtils.createMap('', 'map').then(function (response) {});
 
       });
     </script>
